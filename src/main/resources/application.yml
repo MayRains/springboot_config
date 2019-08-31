@@ -1,0 +1,21 @@
+
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  datasource:
+    master:
+      username: root
+      password: ENC(6nMb//pxAjDu55803EGmNblcSENDtoKX)
+      jdbc-url: jdbc:mysql://localhost:3306/spring?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      type: com.zaxxer.hikari.HikariDataSource
+    cluster:
+      username: root
+      password: ENC(6nMb//pxAjDu55803EGmNblcSENDtoKX)
+      jdbc-url: jdbc:mysql://localhost:3306/jdbctemp?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      type: com.zaxxer.hikari.HikariDataSource
+jasypt:
+  encryptor:
+    password: 19960401

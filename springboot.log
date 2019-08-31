@@ -1,0 +1,8 @@
+2019-08-14 19:34:36.437  INFO 16056 --- [main] c.a.s.SpringbootConfigApplicationTests   : Starting SpringbootConfigApplicationTests on DESKTOP-8ONJPKD with PID 16056 (started by CHARLOTTE in E:\springboot_config)
+2019-08-14 19:34:36.439  INFO 16056 --- [main] c.a.s.SpringbootConfigApplicationTests   : No active profile set, falling back to default profiles: default
+2019-08-14 19:34:38.691  INFO 16056 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-14 19:34:39.014  INFO 16056 --- [main] c.a.s.SpringbootConfigApplicationTests   : Started SpringbootConfigApplicationTests in 3.016 seconds (JVM running for 4.167)
+2019-08-14 19:34:39.421  INFO 16056 --- [main] c.a.s.SpringbootConfigApplicationTests   : info_log
+2019-08-14 19:34:39.422  WARN 16056 --- [main] c.a.s.SpringbootConfigApplicationTests   : warn_log
+2019-08-14 19:34:39.422 ERROR 16056 --- [main] c.a.s.SpringbootConfigApplicationTests   : error_log
+2019-08-14 19:34:39.431  INFO 16056 --- [Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

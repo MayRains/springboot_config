@@ -51,7 +51,7 @@ public class ArticleRestTest {
         ObjectMapper objectMapper = new ObjectMapper();
         Article article = objectMapper.readValue(testStr,Article.class);
         // 打桩
-        when(articleService.saveArticle(article)).thenReturn(article.toString());
+//        when(articleService.saveArticle(article)).thenReturn(article.toString());
 
         MvcResult result = mockMvc.perform(MockMvcRequestBuilders.request(HttpMethod.POST, "/rest/article")
                 .contentType("application/json").content(testStr))

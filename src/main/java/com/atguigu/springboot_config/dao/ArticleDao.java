@@ -3,11 +3,12 @@ package com.atguigu.springboot_config.dao;
 
 import com.atguigu.springboot_config.pojo.Article;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 import javax.annotation.Resource;
 
-@Repository
+
 public class ArticleDao {
 
     @Resource

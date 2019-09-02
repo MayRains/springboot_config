@@ -34,8 +34,10 @@ public class DataSourceConfig {
         return new JdbcTemplate(dataSource);
     }
 
-    @Bean(name = "clusterJdbcTemplate")
-    public JdbcTemplate clusterJdbcTemplate(@Qualifier("clusterDataSource") DataSource dataSource){
+    @Bean("clusterTemplate")
+    public JdbcTemplate clusterJdbcTemplate(
+            @Qualifier("clusterDataSource") DataSource dataSource
+    ){
         return new JdbcTemplate(dataSource);
     }
 }
